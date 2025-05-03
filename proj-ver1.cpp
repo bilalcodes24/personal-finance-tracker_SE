@@ -125,7 +125,7 @@ public:
                 }
             }
 
-            if (!found && summaryCount < 50) {
+            if (!found && summaryCount < 20) {
                 summaries[summaryCount++] = {cat, amt};
             }
         }
